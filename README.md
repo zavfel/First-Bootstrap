@@ -1,5 +1,3 @@
-# bootstrap
-orbital mission control 1
 <html>
 <head>
 	<title>My Bootstrap Exercise</title>
@@ -11,26 +9,67 @@ orbital mission control 1
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
 	      <a class="navbar-brand" href="#">
-	      	<img src="http://logonoid.com/images/bootstrap-logo.png" width="20px">
+	      	<img src="http://logonoid.com/images/bootstrap-logo.png" width="35px">
 	      </a>
 	    </div>
 
-	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <!-- navbar -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	      	<li class="active"><a href="#">Home</a></li>
-	      	<li><a href="#myCarousel">Carousel</a></li>
-	      	<li><a href="#signup">Sign up</a></li>
+	      	<li class="active nav1"><a href="#">Home</a></li>
+	      	<li><a class="nav1" href="#myCarousel">Carousel</a></li>
+	      	<li><a class="nav1" href="#signup">Sign up</a></li>
 	      </ul>
 	        </li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	<!-- carousel -->
+	<div class="carouselPage col-lg-12 col-md-12 col-sm-8">
+	    <div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
+	    	<!-- Carousel indicators -->
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	            <li data-target="#myCarousel" data-slide-to="1"></li>
+	            <li data-target="#myCarousel" data-slide-to="2"></li>
+	        </ol>   
+	       <!-- Carousel items -->
+	        <div class="carousel-inner">
+	            <div class="item">
+	                <h2>Welcome to my Bootstrap!</h2>
+	                <div class="carousel-caption">
+	                  <h3>Hello World.</h3>
+	                  <p>My first Bootstrap.</p>
+	                </div>
+	            </div>
+	            <div class="item slide2">
+	                <h2>Change of Color!</h2>
+	                <div class="carousel-caption">
+	                  <h3>rainbow colors</h3>
+	                </div>
+	            </div>
+	            <div class="active item slide3">
+	                <h2 style="color:black;">Sign up now!</h2>
+	                <div class="carousel-caption">
+	                  <h3>What you waiting for?</h3>
+	                  <a class="button" href="#signup">Sign up!</a>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- Carousel nav -->
+	        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left"></span>
+	        </a>
+	        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right"></span>
+	        </a>
+	    </div>
+	</div>
 
-	
 	<!-- Sign up Form -->
-	<div id= "signup" class="well col-md-4 col-md-offset-4">
+	<div id= "signup" class="well col-lg-4 col-lg-offset-4
+	col-md-4 col-md-offset-4 col-sm-3" >
 			<center><h1>Sign Up Form</h1></center>
 			<form>
 		  <div class="form-group">
@@ -51,15 +90,14 @@ orbital mission control 1
 		</form>
 	</div>
 </body>
-<!-- stylesheet -->
-<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- stylesheet -->
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </html>
