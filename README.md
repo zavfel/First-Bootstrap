@@ -27,7 +27,7 @@
 	</nav>
 	<!-- carousel -->
 	<div class="carouselPage col-lg-12 col-md-12 col-sm-8">
-	    <div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
+	    <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
 	    	<!-- Carousel indicators -->
 	        <ol class="carousel-indicators">
 	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
