@@ -99,5 +99,49 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <!-- stylesheet -->
-<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<style type="text/css">
+
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.carouselPage{
+	margin: 20px;
+}
+.slide2 {
+    background: linear-gradient(to right,
+     #e61f44,#e65d1f,#fdf200,#71ee6d,#3d93da,#4b0082,#551a8b);
+}
+.slide3 {
+    background: url(http://img.xcitefun.net/users/2015/01/371699,xcitefun-sleepy-puppy-pics-pups-dog-pictures-pics.jpg) 0px -120px;
+    background-size: cover;
+}
+.nav1{
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.button{
+    border-radius: 5px;
+    border: 2px solid #6495ED;
+    background-color: #BCD2EE;
+    height: 50px;
+    width: 120px;
+    margin: auto;
+    text-align: center; 
+    text-decoration: none;
+    color: #3D59AB;  
+}
+</style>
 </html>
